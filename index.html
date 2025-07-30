@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Петров Михаил Сергеевич | Инженер-программист</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src='skills.js'> </script>
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+</head>
+<body>
+<header class="header">
+  <nav class="navbar">
+    <a href="#home" class="nav-link">Главная</a>
+    <a href="#portfolio" class="nav-link">Портфолио</a>
+    <a href="#skills" class="nav-link">Навыки</a>
+    <a href="#services" class="nav-link">Услуги</a>
+    <a href="#contacts" class="nav-link">Контакты</a>
+    <a href="#company-features" class="nav-link">Характеристики</a>
+    <a href="#about" class="nav-link">Обо мне</a>
+  </nav>
+</header>
+  
+<section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Петров Михаил</h1>
+      <p>Инженер-программист с 7 летним опытом в сфере IT Технологий.</p>
+      <a href="#portfolio" class="btn">Смотреть работы</a>
+    </div>
+</section>
+<section class="skills" id="skills">
+  <div class="container">
+    <h2>Мои навыки</h2>
+    
+    <div class="skills-tabs">
+      <button class="tab-button active" data-tab="advanced">Продвинутый уровень</button>
+      <button class="tab-button" data-tab="intermediate">Средний уровень</button>
+    </div>
+    
+    <div class="tab-content active" id="advanced">
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Веб-разработка</h3>
+          <div class="skills-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">jQuery</span>
+            <span class="skill-tag">Ajax</span>
+            <span class="skill-tag">Адаптивная верстка</span>
+            <span class="skill-tag">Кроссбраузерная верстка</span>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Программирование</h3>
+          <div class="skills-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">C#</span>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Базы данных</h3>
+          <div class="skills-tags">
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MS SQL Server</span>
+            <span class="skill-tag">Oracle PL/SQL</span>
+          </div>
+        </div>
+        
+        <!-- Остальные категории -->
+      </div>
+    </div>
+    
+    <div class="tab-content" id="intermediate">
+      <div class="skills-grid">
+	    <h3>Остальные категории</h3>
+        <div class="skills-tags">
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">ASP.NET</span>
+          <span class="skill-tag">.NET Core</span>
+		  <span class="skill-tag">1C</span>
+		  <span class="skill-tag">Битрикс24</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="company-features" id='company-features'>
+  <h2>Мне доверяют</h2>
+  <div class="companies">
+    <div class="company">
+      <img src="company-logo/top.png" alt="Академия ТОП">
+      <p>Информация обновляется...</p>
+    </div>
+    <div class="company">
+      <img src="company-logo/college.jpg" alt="Колледж ТОП">
+      <p>Информация обновляется...</p>
+    </div>
+	<div class="company">
+      <img src="company-logo/using.png" alt="ЮСИНГ">
+      <p>Информация обновляется...</p>
+    </div>
+  </div>
+</section>
+<section id="portfolio" class="portfolio">
+  <h2>Мои работы</h2>
+  <div class="cases">
+    <div class="case-item">
+      <img src="company-logo/it-specialist.svg" alt="Logo">
+      <h3>Основные проекты</h3>
+      <p>Работаю по основным регламентантам компании NDA(Non-Disclosure Agreement). </p>
+      <a href="https://ru.wikipedia.org/wiki/Соглашение_о_неразглашении#:~:text=Соглашение%20о%20неразглашении%20(англ.,к%20ней%20доступа%20третьим%20лицам." class="btn-case">Подробнее</a>
+    </div>
+    <!-- Другие кейсы -->
+  </div>
+</section>
+<section id="services" class="services">
+  <h2>Что я предлагаю</h2>
+  <div class="service-list">
+    <div class="service-item">
+      <h3>Преподаватель</h3>
+      <p>Являюсь преподавателем по разработке программного обеспечения на языках Python, C++, C#, HTML & CSS, JavaScript.</p>
+    </div>
+	<div class="service-item">
+      <h3>Web-Программист</h3>
+      <p>Разработка веб-сайта под ключ, администрирование.</p>
+    </div>
+	<div class="service-item">
+      <h3>Администратор</h3>
+      <p>Диагностика и устранение неполадок в PC, помощь с ПО.</p>
+    </div>
+	<div class="service-item">
+      <h3>Тестировщик</h3>
+      <p>Работа над жизненным циклом продукта.</p>
+    </div>
+    <!-- Другие услуги -->
+  </div>
+</section>
+<section class="reviews">
+  <h2>Отзывы клиентов</h2>
+  
+    <div class="review">
+	  <div class="review-task">Задача: Изменить номера на сайте Wordpress </div>
+      <blockquote class="review-quote">«Отличный специалист! Быстро и качественно.»</blockquote>
+      <div class="review-client">-Клиент Александр</div>
+    </div>
+	<div class="review">
+	  <div class="review-task">Задача: Написать обучающий материал по outlook </div>
+      <blockquote class="review-quote">«Просто отлично, расчитывал на то что Михаил пришлет статью через сутки,
+		а он справился за несколько часов, 
+		что дало мне возможность доправить статью под нужды компании. 
+		Пять с плюсом.»
+	  </blockquote>
+      <div class="review-client">-Клиент Руслан</div>
+    </div>
+	<div class="review">
+	  <div class="review-task">Задача: Реализация страницы к сайту на WordPress </div>
+      <blockquote class="review-quote">«Молодой человек сделал все, как и просили. Был всегда на связи. 
+			Очень рекомендую.»</blockquote>
+      <div class="review-client">-Клиент Анастасия</div>
+    </div>
+	<div class="review">
+	  <div class="review-task">Задача: Помощь в настройке кодировки utf-8 -> Unicode </div>
+      <blockquote class="review-quote">«Помог разобраться с кодировкой моего приложения C++ и дал советы по дальнейшей работе.
+			Быстро и качественно.»
+	  </blockquote>
+      <div class="review-client">-Клиент Василий</div>
+    </div>
+	<div class="review">
+	  <div class="review-task">Задача: Создание Базы Данных для PHP My Admin </div>
+      <blockquote class="review-quote">«Создал регистрацию, авторизацию, личный кабинет и подключил отображение данных в БД.»
+	  </blockquote>
+      <div class="review-client">-Клиент Алиса</div>
+    </div>
+	<div class="review">
+	  <div class="review-task">Задача: Разработка корпоративного сайта </div>
+      <blockquote class="review-quote">«Создал сайт стротельной компании по ТЗ. Рекомендую.»
+	  </blockquote>
+      <div class="review-client">-Клиент Максим</div>
+    </div>
+	<div class="review">
+	  <div class="review-task">Задача: Помощь с оформлением документооборота, работа с личным кабинетом </div>
+      <blockquote class="review-quote">«Подключился дистанционно, объяснил, показал и научил выполнять поставленные задачи.»
+	  </blockquote>
+      <div class="review-client">-Клиент Андрей</div>
+    </div>
+	<div class="review">
+	  <div class="review-task">Задача: Помощь с оформлением документооборота, работа с личным кабинетом </div>
+      <blockquote class="review-quote">«Подключился дистанционно, объяснил, показал и научил выполнять поставленные задачи.»
+	  </blockquote>
+      <div class="review-client">-Клиент Эвелина</div>
+    </div>
+  </div>
+</section>
+<section id="contacts" class="contacts">
+  <h2>Связаться со мной</h2>
+  <div class="contacts-list">
+    <a href="tel:+79194653092" class="contact-link">
+      <i class="icon-phone"></i>
+      <span>+7 (919) 465-30-92</span>
+    </a>
+    <a href="mailto:eeemihaeee@gmail.com" class="contact-link">
+      <i class="icon-email"></i>
+      <span>eeemihaeee@gmail.com</span>
+    </a>
+    <a href="https://t.me/eeemihaeee" target="_blank" class="contact-link">
+      <i class="icon-telegram"></i>
+      <span>@eeemihaeee</span>
+    </a>
+  </div>
+</section>
+
+<section class="about" id='about'>
+  <div class="about-container">
+    <h2>Обо мне</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>В преподавательской сфере имею 186 дисциплин - подтверждённых сертификатами от компаний по предмету.</p>
+      </div>
+      <div class="about-education">
+        <h3>Образование:</h3>
+        <ul class="education-list">
+          <li>Высшее, Пермский национальный исследовательский политехнический университет, 2022 год</li>
+          <li>Преподаватель Python, 2022 год</li>
+          <li>Инженер-программист Дронов, 2022 год</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+<footer>
+  <center><p>© 2025 eeemihaeee. Все права защищены.</p></center>
+</footer>
+</html>
